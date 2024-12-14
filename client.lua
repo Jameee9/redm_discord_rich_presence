@@ -24,8 +24,8 @@ end)
 
 RegisterNetEvent('playerSpawned')
 AddEventHandler('playerSpawned', function()
-    SetDiscordRichPresenceAction(0, "Discord Link Title", "https://discord.gg/link")
-    SetDiscordRichPresenceAction(1, "Link Title 2", "https://www.Link2.com")
+    SetDiscordRichPresenceAction(0, "Discord Link Title", "https://discord.gg/link") --// Button One
+    SetDiscordRichPresenceAction(1, "Link Title 2", "https://www.Link2.com") --// Button Two
 end)
 
 AddEventHandler('onResourceStop', function(resourceName)
